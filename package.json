@@ -1,0 +1,30 @@
+{
+    "name": "professional-dentist-website",
+    "version": "1.0.0",
+    "description": "A professional dentist website developed with Bootstrap 4.5.0, CSS3, HTML5, grid technologies, Font Awesome 5.12.0, Google Fonts, responsive integration technologies",
+    "scripts": {
+      "start": "lite-server"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SinemSungur/professional-dentist-website"
+    },
+    "keywords": [
+      "css3",
+      "html5",
+      "flex",
+      "grid",
+      "responsive-web-design",
+      "bootstrap",
+      "media-queries"
+    ],
+    "author": "Sinem Sungur",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/SinemSungur/professional-dentist-website"
+    },
+    "homepage": "https://github.com/SinemSungur/professional-dentist-website#readme",
+    "dependencies": {
+      "lite-server": "^2.5.4"
+    }
+  }
