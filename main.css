@@ -88,11 +88,7 @@ h5 {
   font-weight: 700;
   width: 80%;
 }
-/*CAROUSEL IMG SIZE PROBLEM*/
-/*.carousel-item img {
-    height: 100%;
-    width: auto;
-}*/
+
 /*TEASER PART*/
 .teaser-col:nth-child(odd) {
   background-color: #59abb3;
@@ -104,10 +100,14 @@ h5 {
   text-align: center;
   justify-content: center;
 }
-/* Teaser hover none olmadı kontrol */
-.teaser-content:hover {
-  text-decoration: none;
+.teaser-col:hover .teaser-content {
+  transform: translateY(-10px);
 }
+.teaser-col:hover .teaser-cta {
+  transform: translateY(-30px);
+  opacity: 1;
+}
+
 .hgroup {
   font-size: 1rem;
   font-weight: 700;
@@ -119,32 +119,28 @@ h5 {
   color: white;
   font-size: 0.7em;
 }
-
 .teaser-cta {
   background-color: #13455e;
   border: none;
   color: white;
   padding: 5px 20px;
-  display: none;
+  position: absolute;
+  left: 40%;
+  bottom: 5%;
+  opacity: 0;
+  transition: 300ms ease;
 }
-/*
-.teaser-cta:hover {
-  display: unset;
-}
-*/
-/*TEASER HOVER DA PROBLEM VAR*/
 .teaser-content {
   margin-top: 20px;
+  transition: 300ms all;
 }
 .teaser-col {
   padding: 20px 20px 20px 40px;
   width: 150px;
-  height: auto;
+  height: 300px;
   flex: 1;
 }
-
 /*MAIN*/
-
 main {
   background-color: #dfeef0;
   color: #13455e;
